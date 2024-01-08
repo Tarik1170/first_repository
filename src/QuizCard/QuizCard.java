@@ -4,7 +4,7 @@ import java.io.*;
 
   class DungeopnGame implements Serializable {
       public int x = 3;
-      transient long y = 4;
+      transient long y = 3;
       private short z = 5;
       int getX() {
           return x;
